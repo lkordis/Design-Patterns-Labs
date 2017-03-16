@@ -123,8 +123,6 @@ void LinearInit(Linear* obj, int lb, int ub, double a_coeff, double b_coeff){
     obj->vtable = LinearVTable;
     obj->a = a_coeff;
     obj->b = b_coeff;
-    obj->lower_bound = lb;
-    obj->upper_bound = ub;
 }
 
 Unary_Function* newLinear(int lb, int ub, double a_coeff, double b_coeff){
