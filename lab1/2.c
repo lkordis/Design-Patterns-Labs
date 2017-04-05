@@ -153,5 +153,7 @@ int main()
 
     free(f1);
     free(f2);
+
+    printf("Sizeof(Linear) = %d \nSizeof(Square) = %d \nSizeof(Unary_Function) = %d\n", sizeof(Linear), sizeof(Square), sizeof(Unary_Function));
     return 0;
 }
